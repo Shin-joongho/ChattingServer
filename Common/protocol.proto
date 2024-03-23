@@ -1,0 +1,16 @@
+syntax = "proto3";
+package Protocol;
+
+message Login
+{
+	bool allow = 1;
+	string user_name = 2;
+}
+
+message BuffData
+{
+	string send_time = 1;
+	string send_user = 2;
+	string recv_user = 3;
+	string message_all = 4;
+}

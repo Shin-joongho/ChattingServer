@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ChattingServer.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\pch.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadManager.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Global_C.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread_M.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket.cpp">
+      <Filter>Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="NetAddress.cpp">
+      <Filter>Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCP.cpp">
+      <Filter>Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="IocpEvent.cpp">
+      <Filter>Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="Listener.cpp">
+      <Filter>Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Protocol.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="Send_RecvBuffer.cpp">
+      <Filter>Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="Service.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Session.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Client_Session.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Server_Session.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="MySQL_DB.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="Send_Time.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Allocator.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryPool.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ThreadManager.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\TYPE.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\pch.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="Global_C.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread_M.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket.h">
+      <Filter>Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="NetAddress.h">
+      <Filter>Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCP.h">
+      <Filter>Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="IocpEvent.h">
+      <Filter>Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Listener.h">
+      <Filter>Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Protocol.pb.h">
+      <Filter>protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="Send_RecvBuffer.h">
+      <Filter>Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Service.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Session.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Client_Session.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Server_Session.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQL_DB.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="Send_Time.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Allocator.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryPool.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="protobuf">
+      <UniqueIdentifier>{83375275-5154-49ef-a3ce-1c72dd7e6172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thread">
+      <UniqueIdentifier>{22e2fefe-fa37-4530-bb0c-76da886ffa93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Socket">
+      <UniqueIdentifier>{60541506-68c6-4dde-939f-c49f466f683a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pch">
+      <UniqueIdentifier>{42a2b39c-0287-4e38-9357-dc15cd40cd50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Service">
+      <UniqueIdentifier>{b6ecf594-2798-4b3e-b760-5b48c86a2866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{5f109b04-3f33-49fb-9703-ce4ce20d28e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DB">
+      <UniqueIdentifier>{65ec20e9-31f5-4bf0-a0e3-1b2582f35958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{74dd2e8f-997e-463c-9531-c76aba2e02ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
